@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #12c2e9;
+    background: #5f2c82;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #49a09d, #5f2c82);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #49a09d, #5f2c82); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+/* Estilos para el encabezado */
+header {
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Estilos para el menú de navegación */
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Estilos para el contenido principal */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilos para la sección de productos destacados */
+main .productos-destacados {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px; /* Espacio entre productos */
+}
+
+main .productos-destacados .producto {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    width: calc(33.333% - 20px); /* Ajustado para 3 productos por fila */
+    box-sizing: border-box;
+}
+
+main .productos-destacados .producto img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Estilos para la sección de vestidos */
+main .productos-vestidos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px; /* Espacio entre productos */
+}
+
+main .productos-vestidos .producto {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    width: calc(33.333% - 20px); /* Ajustado para 3 productos por fila */
+    box-sizing: border-box;
+}
+
+main .productos-vestidos .producto img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Estilos para la sección de blusas */
+main .productos-blusas {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px; /* Espacio entre productos */
+}
+
+main .productos-blusas .producto {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    width: calc(33.333% - 20px); /* Ajustado para 3 productos por fila */
+    box-sizing: border-box;
+}
+
+main .productos-blusas .producto img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Estilos para el pie de página */
+footer {
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+footer .contacto {
+    margin-top: 10px;
+}
+
+footer .redes-sociales a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+footer .redes-sociales img {
+    width: 30px; /* Tamaño de las imágenes de las redes sociales */
+    height: 30px;
+}
